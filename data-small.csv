@@ -1,0 +1,200 @@
+[*] Record ID,High impact job before?,Course,Iteration,Role,Source,Evaluation,Decision,Attendance,Project quality,High impact job after?
+rec005agCdEPVwSoK,Unknown,Intro to Transformative AI,Intro to Transformative AI (2024 Dec W49),Participant,Organic Social Media,Weak no,Reject,0%,,Unknown
+rec00EbKjGO1lNsaf,Unknown,Pandemics,Pandemics (2024 Sep W40),Facilitator,Referral,Strong no,Reject,0%,,Unknown
+rec00HpkswNE6SQ8m,Unknown,Intro to Transformative AI,Intro to Transformative AI (2024 Dec W49),Participant,Organic Social Media,Weak yes,Reject,0%,,Unknown
+rec00jYe5qRf08miq,No,Pandemics,Pandemics (2024 May W21),Participant,Other,Weak yes,Accept,75-99%,High-quality,No
+rec00M4ME7aiSFkKv,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Organic Social Media,Strong no,Reject,0%,,Unknown
+rec0176sdXFpSCDfx,No,AI Governance,AI Governance (2024 Apr W14),Participant,Other,Neutral,Accept,75-99%,DNF,No
+rec01sXq1Oilhlvc2,Unknown,AI Alignment,AI Alignment (2023 Jan W03),Participant,Unknown,Strong yes,Reject,0%,,Unknown
+rec0222agsCkvdgQu,Unknown,Pandemics,Pandemics (2024 May W21),Participant,Organic Social Media,Weak no,Reject,0%,,Unknown
+rec02BgNTfUGQvAuh,No,AI Alignment,AI Alignment (2024 Oct W43),Participant,Referral,Strong yes,Accept,50-75%,DNF,No
+rec02hn3IvUWwuKKj,No,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Strong yes,Accept,50-75%,DNF,No
+rec02OPMWEwS4FovR,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec038HrDpVCFCfqJ,Unknown,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Strong no,Reject,0%,,Unknown
+rec03hUCHEgyDHG77,No,Pandemics,Pandemics (2024 Sep W40),Participant,Referral,Weak yes,Accept,50-75%,DNF,No
+rec04Ia7fZ834wsRV,Unknown,Pandemics,Pandemics (2024 May W21),Facilitator,Other,Weak no,Reject,0%,,Unknown
+rec04R5PcMSPN0HOB,Unknown,Pandemics,Pandemics (2024 May W21),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec04WI3r6y8pokik,No,AI Alignment,AI Alignment (2024 Oct W43),Facilitator,Referral,Strong yes,Accept,100%,DNF,No
+rec05Eu9NstL18xJW,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Other,Neutral,Reject,0%,,Unknown
+rec05G9se9O2BTT8o,Unknown,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Strong no,Reject,0%,,Unknown
+rec05j204WMOvMpYf,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Organic Search,Strong no,Reject,0%,,Unknown
+rec05VxudVc9GrSQm,No,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Strong yes,Accept,25-50%,DNF,No
+rec05WQiSJAQFHS0e,Unknown,AI Governance,AI Governance (2024 Apr W14),Participant,Mailing List,Weak no,Reject,0%,,Unknown
+rec05zGXxQ13q6OHo,Unknown,AI Governance,AI Governance (2024 Aug W33),Participant,Blogs,Strong no,Reject,0%,,Unknown
+rec07ak9pTc5x59bb,Unknown,AI Governance,AI Governance (2024 Aug W33),Participant,Referral,Weak no,Reject,0%,,Unknown
+rec07MwLKK4cZAwgF,No,AI Governance,AI Governance (2024 Aug W33),Participant,Mailing List,Weak yes,Accept,0%,DNF,No
+rec08BMBvQwp3Udi2,No,AI Alignment,AI Alignment (2023 Jan W03),Participant,Unknown,Strong yes,Accept,0%,DNF,No
+rec08Kh8WifQcAbhL,Unknown,AI Governance,AI Governance (2024 Apr W14),Participant,Organic Social Media,Strong no,Reject,0%,,Unknown
+rec099KeINYonMWOS,Unknown,AI Governance,AI Governance (2024 Aug W33),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec09rlxLUowxtB7H,No,AI Governance,AI Governance (2024 Apr W14),Participant,Referral,Strong yes,Accept,25-50%,DNF,No
+rec0aaKOc0oiKYxzC,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec0acWkDfxDi5E7F,Unknown,AI Alignment Fast-Track,AI Alignment Fast-Track (2024 Dec W52),Participant,Referral,Neutral,Reject,0%,,Unknown
+rec0AvYxDGc5H7kBv,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Organic Search,Weak no,Reject,0%,,Unknown
+rec0b5wkIQlIjen9m,Unknown,Pandemics,Pandemics (2023 Oct W40),Participant,Mailing List,Neutral,Reject,0%,,Unknown
+rec0BaaW8taGQv9z2,Unknown,AI Governance,AI Governance (2024 Aug W33),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec0brjzVph4dFeLd,Unknown,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Neutral,Reject,0%,,Unknown
+rec0c670kzHbENwn3,No,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Strong yes,Accept,0%,DNF,No
+rec0cbBnbGVyH17SB,Unknown,Pandemics,Pandemics (2023 Oct W40),Participant,Unknown,Neutral,Reject,0%,,Unknown
+rec0ctwaNSHmmR6EY,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Organic Social Media,Strong no,Reject,0%,,Unknown
+rec0CywnAfByPb3bF,No,AI Alignment,AI Alignment (2024 Feb W08),Participant,Other,Weak yes,Accept,100%,DNF,No
+rec0dkaWKrTmOpJI5,No,Pandemics,Pandemics (2023 Oct W40),Participant,Unknown,,Accept,0-25%,DNF,No
+rec0DmtUfEgTaIOUC,Unknown,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Strong no,Reject,0%,,Unknown
+rec0dTBY0fZV29VPI,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Referral,Strong no,Reject,0%,,Unknown
+rec0e1kR9oKCv8YmJ,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Communities,Strong no,Reject,0%,,Unknown
+rec0EDHdgO1KoGLdu,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Organic Social Media,Weak no,Reject,0%,,Unknown
+rec0EebV6HsBcLfx9,Unknown,Intro to Transformative AI,Intro to Transformative AI (2024 Dec W50),Facilitator,Mailing List,Weak no,Reject,0%,,Unknown
+rec0eGf9aEijKVu76,No,AI Alignment,AI Alignment (2024 Jun W25),Facilitator,Referral,Strong yes,Accept,0%,DNF,No
+rec0eonMLz5bKnaOf,Unknown,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Strong yes,Accept,0-25%,DNF,Unknown
+rec0ER8HDhUjx8ona,Unknown,Pandemics,Pandemics (2024 Sep W40),Participant,Organic Social Media,Weak no,Reject,0%,,Unknown
+rec0F5NwFdH5VE2XS,No,AI Governance,AI Governance (2024 Apr W14),Participant,Referral,Weak yes,Accept,100%,High-quality,No
+rec0fkNoh9XmvQR6T,No,AI Alignment,AI Alignment (2023 Jan W03),Participant,Unknown,,Accept,0%,DNF,No
+rec0Fop0bTYqY8COi,Unknown,AI Alignment Fast-Track,AI Alignment Fast-Track (2024 Dec W52),Participant,Other,Strong no,Reject,0%,,Unknown
+rec0FQGvJtXdjHh7E,Unknown,AI Alignment Fast-Track,AI Alignment Fast-Track (2024 Dec W50),Participant,Referral,Strong no,Reject,0%,,Unknown
+rec0Ge0bnnlaYReAl,No,AI Governance,AI Governance (2024 Apr W14),Participant,Referral,Weak yes,Accept,50-75%,DNF,No
+rec0GfzdB2jFwZRqa,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Unknown,Neutral,Reject,0%,,Unknown
+rec0glp8D4aazh3bD,Unknown,AI Governance,AI Governance (2024 Aug W33),Participant,Other,Neutral,Reject,0%,,Unknown
+rec0gpCZsESAlqAme,No,AI Alignment Fast-Track,AI Alignment Fast-Track (2024 Dec W52),Participant,Blogs,Strong yes,Accept,0%,DNF,No
+rec0h2fd7sQVoLGfp,Unknown,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Neutral,Reject,0%,,Unknown
+rec0h9A2hhzTRaekB,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Other,Strong no,Reject,0%,,Unknown
+rec0HboQoIYzQfeUr,Unknown,Pandemics,Pandemics (2024 May W21),Participant,Organic Social Media,Weak no,Reject,0%,,Unknown
+rec0HKxyZ982ZSWQc,Unknown,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Strong yes,Accept,0-25%,DNF,Unknown
+rec0HNjWmRg1T1bth,Unknown,Pandemics,Pandemics (2024 Sep W40),Participant,Referral,Strong no,Reject,0%,,Unknown
+rec0hoWD6ww7rBZo0,Unknown,AI Governance,AI Governance (2024 Aug W33),Facilitator,Organic Social Media,Weak no,Reject,0%,,Unknown
+rec0HS7Bl6YNsQiFu,No,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Neutral,Accept,0-25%,DNF,No
+rec0hWhabKoaePpKC,Unknown,Pandemics,Pandemics (2024 May W21),Participant,Organic Social Media,Weak no,Reject,0%,,Unknown
+rec0I4cPGVjaGqYs2,No,AI Alignment,AI Alignment (2024 Feb W08),Participant,Referral,Weak yes,Accept,75-99%,Med-quality,No
+rec0InKwc3BgRwYkZ,No,AI Governance,AI Governance (2024 Apr W14),Participant,Organic Social Media,Weak yes,Accept,100%,DNF,No
+rec0iUkMN9yydy6sJ,Unknown,Intro to Transformative AI,Intro to Transformative AI (2024 Dec W50),Participant,Ads,Weak no,Reject,0%,,Unknown
+rec0j9xCmIHyhOdVr,Unknown,AI Alignment,AI Alignment (2023 Jan W03),Participant,Unknown,Neutral,Reject,0%,,Unknown
+rec0jdn737sznDnz4,No,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Strong yes,Accept,0-25%,DNF,Yes
+rec0Jgzqqdby656HI,No,AI Governance,AI Governance (2024 Apr W14),Participant,Other,Weak yes,Accept,25-50%,High-quality,No
+rec0JhYMM2jAf7iVS,Unknown,Pandemics,Pandemics (2024 May W21),Participant,Other,Strong no,Reject,0%,,Unknown
+rec0Jl5XjnCUyNcE0,No,AI Alignment Fast-Track,AI Alignment Fast-Track (2024 Dec W50),Participant,Other,Weak yes,Accept,25-50%,DNF,No
+rec0JlQhpuBgYp2k3,No,AI Alignment,AI Alignment (2024 Feb W08),Participant,Organic Social Media,Weak yes,Accept,50-75%,DNF,No
+rec0jMG0DopbzfRLM,Unknown,Pandemics,Pandemics (2024 Sep W40),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec0jMLpJGxae6z3M,Unknown,AI Governance,AI Governance (2024 Apr W14),Participant,Organic Social Media,Weak no,Reject,0%,,Unknown
+rec0jO98hhPtoRqOf,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Unknown,Strong no,Reject,0%,,Unknown
+rec0jq4U3kdvg9Ppy,No,AI Alignment,AI Alignment (2024 Oct W43),Participant,Organic Search,Weak yes,Accept,0-25%,DNF,No
+rec0JzVeGaVL5uVqP,Unknown,Pandemics,Pandemics (2024 May W21),Participant,Unknown,Weak no,Reject,0%,,Unknown
+rec0K9diLCocjRH6i,Unknown,Intro to Transformative AI,Intro to Transformative AI (2024 Dec W51),Participant,Mailing List,Neutral,Reject,0%,,Unknown
+rec0KACsDmwqooqyf,No,Pandemics,Pandemics (2024 May W21),Participant,Organic Social Media,Strong yes,Accept,50-75%,DNF,No
+rec0Kd9d7MC06aqur,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec0ke3OEGILvJcg7,Unknown,AI Governance,AI Governance (2024 Aug W33),Participant,Other,Neutral,Reject,0%,,Unknown
+rec0knHLu6Olznd4z,Yes,AI Alignment,AI Alignment (2024 Jun W25),Participant,Ads,Weak yes,Accept,100%,High-quality,Yes
+rec0Ksgm8KHnkGQzE,No,AI Alignment,AI Alignment (2024 Jun W25),Participant,Ads,Weak yes,Accept,50-75%,DNF,No
+rec0ktdu3DSePOvVA,No,Pandemics,Pandemics (2024 Sep W40),Participant,Organic Social Media,Weak yes,Accept,0%,DNF,No
+rec0KXtFh9VnTUe4n,No,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Strong yes,Accept,50-75%,DNF,No
+rec0LBW1JMJLpnpmh,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Organic Social Media,Strong no,Reject,0%,,Unknown
+rec0lkKqzZJ2rwj0k,No,AI Governance,AI Governance (2024 Aug W33),Participant,Ads,Weak yes,Accept,0-25%,DNF,No
+rec0M7WSQeNrgp9hJ,Yes,AI Alignment,AI Alignment (2024 Feb W08),Participant,Referral,Weak yes,Accept,0-25%,DNF,Yes
+rec0MLuoD7I4tmYqf,Unknown,AI Alignment,AI Alignment (2024 Jun W25),Facilitator,Organic Social Media,Strong no,Reject,0%,,Unknown
+rec0moPr3NKtECF4K,Unknown,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Neutral,Reject,0%,,Unknown
+rec0muux1JMVTHWst,Unknown,AI Alignment,AI Alignment (2024 Jun W25),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec0Mxchs4YaDrFzK,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Organic Social Media,Strong no,Reject,0%,,Unknown
+rec0n0ystoKMu4hpk,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec0ncQfiXetqfV4X,Unknown,AI Governance,AI Governance (2024 Apr W14),Participant,Other,Weak no,Reject,0%,,Unknown
+rec0NwLpRP8J69XyD,Unknown,Pandemics,Pandemics (2024 Sep W40),Participant,Referral,Weak no,Reject,0%,,Unknown
+rec0OdtoDwkx80f2t,Yes,AI Governance,AI Governance (2024 Aug W33),Participant,Mailing List,Strong yes,Accept,75-99%,DNF,Yes
+rec0OHT2q1TzJlyNa,Unknown,AI Governance,AI Governance (2024 Aug W33),Participant,Organic Social Media,Strong no,Reject,0%,,Unknown
+rec0or6eCx5Nxmo3k,Unknown,Intro to Transformative AI,Intro to Transformative AI (2024 Dec W49),Participant,Organic Search,Weak yes,Reject,0%,,Unknown
+rec0ORGxnpaIZo3rQ,Unknown,Pandemics,Pandemics (2023 Oct W40),Facilitator,Unknown,Weak yes,Reject,0%,,Unknown
+rec0Ox8kH3iy3DzGY,Unknown,AI Alignment,AI Alignment (2024 Jun W25),Participant,Ads,Weak no,Reject,0%,,Unknown
+rec0pdwaZ8bE5LiLA,Unknown,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Strong no,Reject,0%,,Unknown
+rec0Phjqw03UDIWsk,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Organic Social Media,Weak no,Reject,0%,,Unknown
+rec0PMNL6FyIU1Z36,Unknown,Intro to Transformative AI,Intro to Transformative AI (2024 Dec W49),Participant,Other,Weak no,Reject,0%,,Unknown
+rec0pXt6qS0rgU0U4,No,Pandemics,Pandemics (2024 May W21),Participant,Referral,Weak yes,Accept,25-50%,DNF,No
+rec0qbSXAHaAAoppb,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Job Board,Weak yes,Accept,50-75%,DNF,Unknown
+rec0qbuLvG5VMqiwL,No,AI Alignment,AI Alignment (2024 Jun W25),Participant,Ads,Weak yes,Accept,50-75%,Low-quality,No
+rec0QdOldxaADHLK3,No,Pandemics,Pandemics (2023 Oct W40),Participant,Mailing List,Weak yes,Accept,25-50%,DNF,No
+rec0QKSbbYqcF3edc,Unknown,AI Governance,AI Governance (2024 Aug W33),Participant,Blogs,Neutral,Reject,0%,,Unknown
+rec0qmYcnwUQ5zGZV,No,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Strong yes,Accept,0-25%,DNF,No
+rec0qNh1giVbla003,Yes,AI Alignment,AI Alignment (2024 Feb W08),Participant,Organic Social Media,Neutral,Accept,75-99%,DNF,Yes
+rec0qnNYadccdxsLO,Unknown,Intro to Transformative AI,Intro to Transformative AI (2024 Dec W49),Participant,Organic Social Media,Weak no,Reject,0%,,Unknown
+rec0QoaZs5Rqwoagk,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Organic Search,Weak no,Reject,0%,,Unknown
+rec0qqJ9nXIew7yOW,No,AI Alignment,AI Alignment (2023 Jan W03),Participant,Unknown,Strong yes,Accept,0%,DNF,No
+rec0r5pkEvdI2frfi,No,AI Governance,AI Governance (2023 Jun W26),Facilitator,Unknown,Strong yes,Accept,50-75%,DNF,No
+rec0RIqP2AWMeodZI,Unknown,AI Governance,AI Governance (2024 Aug W33),Participant,Referral,Strong no,Reject,0%,,Unknown
+rec0rTgxbX1d7oVaK,No,Pandemics,Pandemics (2023 Oct W40),Participant,Other,Strong yes,Accept,25-50%,DNF,No
+rec0RUbdYaaUkKHz2,No,AI Alignment,AI Alignment (2024 Oct W43),Participant,Referral,Weak yes,Accept,50-75%,DNF,No
+rec0S2cFaR6KaLl4V,Unknown,Pandemics,Pandemics (2024 Sep W40),Participant,Ads,Weak no,Reject,0%,,Unknown
+rec0sAlft4l7C8kAN,Unknown,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Neutral,Reject,0%,,Unknown
+rec0SES0XeYuAvqJn,Unknown,AI Alignment,AI Alignment (2023 Jan W03),Participant,Unknown,Strong no,Reject,0%,,Unknown
+rec0Si5AW7WXX8dbB,Unknown,Pandemics,Pandemics (2024 Sep W40),Participant,Referral,Strong no,Reject,0%,,Unknown
+rec0sIOduqknvtOwz,No,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Neutral,Accept,0-25%,DNF,No
+rec0SkEnPjQKxO59k,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Facilitator,Organic Social Media,Weak no,Reject,0%,,Unknown
+rec0Smb0y33mO6NN0,Unknown,AI Governance,AI Governance (2024 Aug W33),Facilitator,Organic Social Media,TODO,Reject,0%,,Unknown
+rec0SPUWv02cdj32C,No,AI Governance,AI Governance (2024 Apr W14),Participant,Other,Strong yes,Accept,25-50%,DNF,No
+rec0sTWl2miB89m9R,Unknown,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Strong no,Reject,0%,,Unknown
+rec0suLX5p3tYIX4B,No,AI Alignment,AI Alignment (2024 Jun W25),Participant,Other,Weak yes,Accept,50-75%,DNF,No
+rec0TcNLHC7R7g20B,Unknown,Pandemics,Pandemics (2024 Sep W40),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec0tDdvZIazdJht1,Unknown,Intro to Transformative AI,Intro to Transformative AI (2024 Dec W49),Participant,Communities,Neutral,Reject,0%,,Unknown
+rec0tjlBEGNAg4FDX,Unknown,AI Governance,AI Governance (2024 Aug W33),Participant,Referral,Weak no,Reject,0%,,Unknown
+rec0TkCtCspPHNOBw,No,AI Alignment,AI Alignment (2024 Jun W25),Facilitator,Other,Strong yes,Accept,100%,DNF,No
+rec0tLmKkpYGWE0Ox,Unknown,AI Governance,AI Governance (2024 Aug W33),Facilitator,Organic Social Media,TODO,Reject,0%,,Unknown
+rec0tnpa56OtbZiZH,No,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Neutral,Accept,50-75%,DNF,No
+rec0TxFPaUr0Q1H4M,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Organic Social Media,Weak no,Reject,0%,,Unknown
+rec0txhoXASe8cnPG,Unknown,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Strong yes,Accept,25-50%,DNF,Unknown
+rec0TzuieqdCRp8w9,Unknown,AI Governance,AI Governance (2024 Apr W14),Participant,Other,Strong yes,Accept,100%,DNF,Unknown
+rec0uEJifEUlv5Ixu,Unknown,AI Governance,AI Governance (2024 Aug W33),Participant,Referral,Neutral,Reject,0%,,Unknown
+rec0uFvSi9B40IMLg,Unknown,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Strong yes,Reject,0%,,Unknown
+rec0Ug1RSy14zOZ7j,No,AI Governance,AI Governance (2024 Aug W33),Participant,Other,Weak yes,Accept,50-75%,DNF,No
+rec0uJkQH8F5iIPOx,Unknown,AI Alignment,AI Alignment (2024 Jun W25),Participant,Organic Search,Weak no,Reject,0%,,Unknown
+rec0uoK433EhMlja2,Unknown,AI Alignment,AI Alignment (2023 Jan W03),Facilitator,Unknown,,Reject,0%,,Unknown
+rec0uQmOO3ZN6uu1B,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Other,Weak no,Reject,0%,,Unknown
+rec0uzoxK4HSosZu3,Unknown,AI Governance,AI Governance (2024 Aug W33),Participant,Job Board,Weak no,Reject,0%,,Unknown
+rec0V3bHQHEAV375v,Unknown,AI Alignment,AI Alignment (2023 Jan W03),Participant,Unknown,Strong yes,Reject,0%,,Unknown
+rec0V8P8Av6rrOEXM,Yes,AI Alignment,AI Alignment (2024 Jun W25),Participant,Unknown,Strong yes,Accept,75-99%,2nd place,Yes
+rec0vCl3Ce9Ny0nAL,Unknown,AI Alignment,AI Alignment (2024 Jun W25),Participant,Organic Social Media,Strong no,Reject,0%,,Unknown
+rec0VH9dTgh7P20Ao,Unknown,Pandemics,Pandemics (2024 Sep W40),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec0VhOqxmQxoxbDV,Unknown,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Neutral,Reject,0%,,Unknown
+rec0VmwlM0j91200M,No,AI Governance,AI Governance (2024 Aug W33),Participant,Referral,Strong yes,Accept,0%,DNF,No
+rec0VoaHud6sys8hN,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec0vSHUShQIfSVBc,No,Pandemics,Pandemics (2024 Sep W40),Participant,Job Board,Weak yes,Accept,50-75%,DNF,No
+rec0VvpZASKzN2xkL,No,AI Alignment,AI Alignment (2024 Feb W08),Participant,Other,Weak yes,Accept,50-75%,Med-quality,Yes
+rec0VWXYylL3p6gdQ,Unknown,AI Alignment,AI Alignment (2023 Jan W03),Participant,Unknown,Strong no,Reject,0%,,Unknown
+rec0vYWpvuAKlE0KO,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Other,Weak no,Reject,0%,,Unknown
+rec0W4LU8cSLojCeC,No,AI Alignment,AI Alignment (2024 Jun W25),Participant,Organic Search,Weak yes,Accept,100%,High-quality,No
+rec0wAQMdx9ISWUsE,No,AI Governance,AI Governance (2024 Apr W14),Participant,Communities,Neutral,Accept,0%,DNF,No
+rec0WCi0aQSmD0fcb,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Organic Search,Strong no,Reject,0%,,Unknown
+rec0wlTIEOKIiPAZa,Unknown,Pandemics,Pandemics (2024 Sep W40),Participant,Mailing List,Strong no,Reject,0%,,Unknown
+rec0XASz1GLoZt7Tq,No,AI Governance,AI Governance (2024 Aug W33),Participant,Organic Social Media,Weak yes,Accept,100%,DNF,No
+rec0xhvt9pi87ylAZ,Unknown,Intro to Transformative AI,Intro to Transformative AI (2024 Dec W51),Participant,Organic Social Media,Neutral,Reject,0%,,Unknown
+rec0Xtk7LIorsKsG0,No,AI Alignment,AI Alignment (2024 Feb W08),Participant,Referral,Weak yes,Accept,75-99%,DNF,No
+rec0XTOyYv30WDW2f,Unknown,AI Governance,AI Governance (2024 Aug W33),Facilitator,Organic Social Media,TODO,Reject,0%,,Unknown
+rec0y7gx1wm05sWlh,No,AI Alignment Fast-Track,AI Alignment Fast-Track (2024 Dec W50),Facilitator,Unknown,TODO,Accept,25-50%,DNF,No
+rec0YC45QHJObW5b7,No,AI Governance,AI Governance (2024 Aug W33),Participant,Referral,Weak yes,Accept,75-99%,DNF,No
+rec0yrDOqc208qvIC,Unknown,AI Alignment,AI Alignment (2023 Jan W03),Participant,Unknown,Neutral,Reject,0%,,Unknown
+rec0yt8gFVyVEpNIv,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Organic Social Media,Strong no,Reject,0%,,Unknown
+rec0ywnNrce7uscE8,Unknown,AI Alignment,AI Alignment (2024 Jun W25),Participant,Referral,Weak no,Reject,0%,,Unknown
+rec0yxLGXkKDkthJI,Unknown,AI Alignment,AI Alignment (2024 Jun W25),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec0YxPTX184WnHko,Yes,AI Governance,AI Governance (2023 Jun W26),Participant,Unknown,Neutral,Accept,0%,DNF,Yes
+rec0ZBMFlHfpDB4Q0,No,AI Alignment,AI Alignment (2023 Jan W03),Facilitator,Unknown,,Accept,0%,DNF,No
+rec0ZFGS7xxTM3fbl,Unknown,Pandemics,Pandemics (2024 Sep W40),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec0zGylR0WbNw8o3,No,AI Alignment,AI Alignment (2024 Jun W25),Participant,Other,Weak yes,Accept,0%,DNF,No
+rec0zid6uLlouRLVb,Unknown,Pandemics,Pandemics (2023 Oct W40),Participant,Unknown,Strong no,Reject,0%,,Unknown
+rec0ZtM7RRG3y7nhX,Unknown,Pandemics,Pandemics (2023 Oct W40),Participant,Unknown,Strong no,Reject,0%,,Unknown
+rec0zzWmWZDXiMLNc,Unknown,Pandemics,Pandemics (2024 Sep W40),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec104sbhJ8ynrkqU,No,AI Governance,AI Governance (2024 Apr W14),Participant,Organic Social Media,,Accept,0-25%,DNF,No
+rec108N0UFoMDvB1M,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Ads,Strong no,Reject,0%,,Unknown
+rec10G7PtsGpsw8cT,No,AI Alignment,AI Alignment (2024 Oct W43),Participant,Other,Weak yes,Accept,0-25%,DNF,No
+rec11kWMW2jyu73i6,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Organic Social Media,Strong no,Reject,0%,,Unknown
+rec12GMtTSshNccbq,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Other,Weak yes,Accept,75-99%,High-quality,Unknown
+rec12IXWjsz7KpU1h,Unknown,AI Governance,AI Governance (2024 Apr W14),Participant,Communities,Weak no,Reject,0%,,Unknown
+rec12LTbXAZzzHWGI,No,AI Alignment,AI Alignment (2024 Jun W25),Participant,Other,Weak yes,Accept,50-75%,DNF,No
+rec12p2Vh6nDo4w1l,Unknown,AI Alignment,AI Alignment (2023 Jan W03),Participant,Unknown,Neutral,Reject,0%,,Unknown
+rec12PHozJNVtMeea,No,AI Alignment,AI Alignment (2024 Feb W08),Participant,Referral,Weak yes,Accept,50-75%,DNF,No
+rec13CQF2lJ7xHalm,No,Pandemics,Pandemics (2023 Oct W40),Participant,Referral,Weak yes,Accept,0%,DNF,No
+rec13DYQ7OwFdpGRz,No,AI Alignment,AI Alignment (2024 Oct W43),Participant,Referral,Weak yes,Accept,50-75%,DNF,No
+rec14D1uu5I5H02Gs,No,AI Alignment,AI Alignment (2024 Oct W43),Participant,Other,Weak yes,Accept,50-75%,DNF,No
+rec14Phu1G9rXhOab,Unknown,AI Governance,AI Governance (2024 Apr W14),Participant,Referral,Weak no,Reject,0%,,Unknown
+rec159v6VXSOOEHgW,Unknown,Pandemics,Pandemics (2023 Oct W40),Participant,Unknown,Weak yes,Reject,0%,,Unknown
+rec15B9dRSwcZmt0p,Unknown,AI Governance,AI Governance (2024 Aug W33),Facilitator,Organic Social Media,Weak no,Reject,0%,,Unknown
+rec15KpSEYW8JtRwM,No,AI Alignment,AI Alignment (2024 Feb W08),Participant,Other,Neutral,Accept,50-75%,DNF,No
+rec15LlwZt3AgbQv2,Unknown,Pandemics,Pandemics (2024 Sep W40),Facilitator,Organic Social Media,Strong no,Reject,0%,,Unknown
+rec16ACabqACVu2Dr,No,AI Governance,AI Governance (2024 Aug W33),Participant,Other,Weak yes,Accept,50-75%,DNF,No
+rec16jesRmLcEoGb8,No,AI Alignment,AI Alignment (2024 Feb W08),Participant,Other,Neutral,Accept,50-75%,DNF,No
+rec16s1pCMXXJylh0,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Organic Social Media,Strong no,Reject,0%,,Unknown
+rec17y2spKl8RvKbz,Unknown,AI Alignment,AI Alignment (2024 Oct W43),Participant,Referral,Strong no,Reject,0%,,Unknown
+rec18FHHRTkOJ2nxi,Unknown,Pandemics,Pandemics (2023 Oct W40),Participant,Unknown,Strong no,Reject,0%,,Unknown
+rec19ipH3ojaOrL6U,Unknown,AI Alignment,AI Alignment (2024 Feb W08),Participant,Other,Strong no,Reject,0%,,Unknown
+rec19wzi6eku5ktWZ,Unknown,Intro to Transformative AI,Intro to Transformative AI (2024 Dec W50),Participant,Other,Weak no,Reject,0%,,Unknown
