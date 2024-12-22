@@ -25,13 +25,21 @@ const columnColors = {
     7: "#E91E63"  // Final Role - Pink
 };
 
-// Create the SVG container with accessibility attributes
+// Create the SVG container with accessibility attributes and click debugging
 const svg = d3.select("#chart")
     .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .attr("role", "img")
     .attr("aria-label", "Sankey diagram showing applicant flow through different stages")
+    .on("click", function(event) {
+        // Get click coordinates relative to SVG
+        const point = d3.pointer(event);
+        console.log("SVG Click coordinates:", {
+            x: point[0] - margin.left,
+            y: point[1] - margin.top
+        });
+    })
     .append("g")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
@@ -49,7 +57,7 @@ function normalizeValue(value, type) {
     // Handle project quality special cases
     if (type === 'project_quality') {
         if (value === '2nd place') return 'High-quality';
-        if (value.toLowerCase() === 'unknown') return 'unknown';
+        if (value.toLowerCase() === 'unknown') return 'Unknown';
     }
     
     return value;
@@ -260,19 +268,22 @@ function updateVisualization(filteredData) {
         }
 
         // Column 4 to 5 (Decision to Attendance)
-        const attendance = normalizeValue(row['Attendance']);
-        if (decision && attendance) {
-            const sourceNode = nodeMap[`4-${decision}`];
-            const targetNode = nodeMap[`5-${attendance}`];
-            if (sourceNode !== undefined && targetNode !== undefined) {
-                addOrUpdateLink(links, sourceNode, targetNode);
+        let attendance = null;
+        if (decision === 'Accept') {
+            attendance = normalizeValue(row['Attendance']);
+            if (attendance) {
+                const sourceNode = nodeMap[`4-${decision}`];
+                const targetNode = nodeMap[`5-${attendance}`];
+                if (sourceNode !== undefined && targetNode !== undefined) {
+                    addOrUpdateLink(links, sourceNode, targetNode);
+                }
             }
         }
 
         // Column 5 to 6 (Attendance to Project Quality)
         let projectQuality = row['Project quality'];
         if (decision === 'Reject' && !projectQuality) {
-            projectQuality = 'unknown';
+            projectQuality = 'Unknown';
         }
         projectQuality = normalizeValue(projectQuality, 'project_quality');
         if (attendance && projectQuality) {
@@ -301,6 +312,7 @@ function updateVisualization(filteredData) {
     const sankey = d3.sankey()
         .nodeWidth(25)
         .nodePadding(20)
+        .nodeAlign(d3.sankeyLeft)
         .extent([[0, 40], [width, height - 10]])
         .nodeSort(null);
 
@@ -332,6 +344,12 @@ function updateVisualization(filteredData) {
         .attr("stroke-width", d => Math.max(1, d.width))
         .style("opacity", 1);
 
+    // Remove any link whose source or target is zero-value and not "Unknown"
+    link.filter(d => 
+        (d.source.value === 0 && d.source.name !== "Unknown") ||
+        (d.target.value === 0 && d.target.name !== "Unknown")
+    ).remove();
+
     // Add the nodes
     const node = svg.append("g")
         .attr("aria-label", "Flow nodes")
@@ -339,6 +357,10 @@ function updateVisualization(filteredData) {
         .data(sankeyNodes)
         .join("g")
         .attr("class", "node");
+
+    // Remove any node that is zero-value and not "Unknown"
+    node.filter(d => d.value === 0 && d.name !== "Unknown")
+        .remove();
 
     // Add node rectangles
     node.append("rect")
@@ -363,6 +385,16 @@ function updateVisualization(filteredData) {
         .style("filter", "drop-shadow(2px 2px 2px rgba(0,0,0,0.1))")
         .style("cursor", "pointer")
         .on("click", function(event, d) {
+            // Log node information for debugging
+            console.log("Clicked node:", d.name);
+            console.log("Node coordinates:", {
+                x0: d.x0,
+                x1: d.x1,
+                y0: d.y0,
+                y1: d.y1,
+                column: d.column
+            });
+
             // Toggle node selection
             const columnNodes = selectedNodes.get(d.column) || new Set();
             
@@ -412,17 +444,13 @@ function updateVisualization(filteredData) {
             updateVisualization(filteredData);
         });
 
-    // Add node titles
-    node.append("title")
-        .text(d => `${d.name}\n${d.value} applicants`);
-
     // Add node labels
     node.append("text")
         .attr("x", d => d.x0 < width / 2 ? d.x1 + 6 : d.x0 - 6)
         .attr("y", d => (d.y1 + d.y0) / 2)
         .attr("dy", "0.35em")
         .attr("text-anchor", d => d.x0 < width / 2 ? "start" : "end")
-        .text(d => `${d.name} (${d.value})`)
+        .text(d => d.value === 0 ? "" : `${d.name} (${d.value})`)
         .style("font-size", "13px")
         .style("font-weight", "500")
         .style("fill", "#333")
@@ -461,14 +489,10 @@ function updateVisualization(filteredData) {
                 .style("stroke-width", d => Math.max(1, d.width))
                 .style("transition", "all 0.2s ease");
         });
-
-    // Add link titles
-    link.append("title")
-        .text(d => `${d.source.name} → ${d.target.name}\n${d.value} applicants`);
 }
 
 // Load and process the CSV data with error handling
-d3.csv("data.csv")
+d3.csv("./data.csv")
     .then(function(csvData) {
         if (!csvData || !csvData.length) {
             throw new Error("No data found in CSV file");
