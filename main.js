@@ -384,15 +384,56 @@ function updateVisualization(filteredData) {
         })
         .style("filter", "drop-shadow(2px 2px 2px rgba(0,0,0,0.1))")
         .style("cursor", "pointer")
+        .on("mouseover", function(event, d) {
+            // Show node info on hover
+            d3.select(this)
+                .attr("stroke", "#000")
+                .attr("stroke-width", "3")
+                .style("filter", "drop-shadow(3px 3px 3px rgba(0,0,0,0.2))");
+                
+            // Log hover info
+            console.log("Hovering Node:", {
+                name: d.name,
+                column: columns[d.column - 1],
+                value: d.value,
+                position: {
+                    center: {
+                        x: Math.round((d.x0 + d.x1) / 2),
+                        y: Math.round((d.y0 + d.y1) / 2)
+                    }
+                }
+            });
+        })
+        .on("mouseout", function() {
+            d3.select(this)
+                .attr("stroke", d => {
+                    const columnNodes = selectedNodes.get(d.column);
+                    return columnNodes && columnNodes.has(d.name) ? "#000" : "#fff";
+                })
+                .attr("stroke-width", d => {
+                    const columnNodes = selectedNodes.get(d.column);
+                    return columnNodes && columnNodes.has(d.name) ? 2 : 1;
+                })
+                .style("filter", "drop-shadow(2px 2px 2px rgba(0,0,0,0.1))");
+        })
         .on("click", function(event, d) {
-            // Log node information for debugging
-            console.log("Clicked node:", d.name);
-            console.log("Node coordinates:", {
-                x0: d.x0,
-                x1: d.x1,
-                y0: d.y0,
-                y1: d.y1,
-                column: d.column
+            // Log detailed node information
+            console.log("Clicked Node Details:", {
+                name: d.name,
+                column: columns[d.column - 1],
+                value: d.value,
+                coordinates: {
+                    center: {
+                        x: Math.round((d.x0 + d.x1) / 2),
+                        y: Math.round((d.y0 + d.y1) / 2)
+                    },
+                    bounds: {
+                        x0: Math.round(d.x0),
+                        x1: Math.round(d.x1),
+                        y0: Math.round(d.y0),
+                        y1: Math.round(d.y1)
+                    }
+                }
             });
 
             // Toggle node selection
