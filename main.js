@@ -1,3 +1,5 @@
+/* main.js */
+//
 // Set the dimensions and margins of the graph
 const margin = {top: 50, right: 200, bottom: 20, left: 200};
 const width = 1600 - margin.left - margin.right;
@@ -308,13 +310,14 @@ function updateVisualization(filteredData) {
     // Create the Sankey data object
     const data = {nodes, links};
 
-    // Set up the Sankey generator
+    // Set up the Sankey generator with increased iterations and node padding to reduce overlap
     const sankey = d3.sankey()
         .nodeWidth(25)
-        .nodePadding(20)
+        .nodePadding(30)
         .nodeAlign(d3.sankeyLeft)
         .extent([[0, 40], [width, height - 10]])
-        .nodeSort(null);
+        .nodeSort(null)
+        .iterations(64);
 
     // Generate the Sankey diagram
     const {nodes: sankeyNodes, links: sankeyLinks} = sankey(data);
@@ -344,12 +347,6 @@ function updateVisualization(filteredData) {
         .attr("stroke-width", d => Math.max(1, d.width))
         .style("opacity", 1);
 
-    // Remove any link whose source or target is zero-value and not "Unknown"
-    link.filter(d => 
-        (d.source.value === 0 && d.source.name !== "Unknown") ||
-        (d.target.value === 0 && d.target.name !== "Unknown")
-    ).remove();
-
     // Add the nodes
     const node = svg.append("g")
         .attr("aria-label", "Flow nodes")
@@ -357,10 +354,6 @@ function updateVisualization(filteredData) {
         .data(sankeyNodes)
         .join("g")
         .attr("class", "node");
-
-    // Remove any node that is zero-value and not "Unknown"
-    node.filter(d => d.value === 0 && d.name !== "Unknown")
-        .remove();
 
     // Add node rectangles
     node.append("rect")
