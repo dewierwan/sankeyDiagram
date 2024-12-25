@@ -362,18 +362,46 @@ function updateVisualization(filteredData) {
         .attr("height", d => Math.max(d.y1 - d.y0, 1))
         .attr("width", d => d.x1 - d.x0)
         .attr("fill", d => {
+            // If this column has no selected nodes, all remain fully colored.
             const columnNodes = selectedNodes.get(d.column);
-            return columnNodes && columnNodes.has(d.name) 
-                ? d3.color(columnColors[d.column]).brighter(0.5) 
-                : columnColors[d.column];
+            if (!columnNodes || columnNodes.size === 0) {
+                return columnColors[d.column];
+            } else {
+                // If columnNodes exist, highlight selected nodes and gray out unselected.
+                if (columnNodes.has(d.name)) {
+                    return d3.color(columnColors[d.column]).brighter(0.5);
+                } else {
+                    return "#ddd";
+                }
+            }
         })
         .attr("stroke", d => {
             const columnNodes = selectedNodes.get(d.column);
-            return columnNodes && columnNodes.has(d.name) ? "#000" : "#fff";
+            // If no nodes in this column are selected, keep standard stroke of #fff
+            if (!columnNodes || columnNodes.size === 0) {
+                return "#fff";
+            } else {
+                // If at least one node is selected, highlight selected ones with black stroke
+                // and unselected with #fff
+                if (columnNodes.has(d.name)) {
+                    return "#000";
+                } else {
+                    return "#fff";
+                }
+            }
         })
         .attr("stroke-width", d => {
             const columnNodes = selectedNodes.get(d.column);
-            return columnNodes && columnNodes.has(d.name) ? 2 : 1;
+            if (!columnNodes || columnNodes.size === 0) {
+                return 1;
+            } else {
+                // If node is selected in a column, give thicker border
+                if (columnNodes.has(d.name)) {
+                    return 2;
+                } else {
+                    return 1;
+                }
+            }
         })
         .style("filter", "drop-shadow(2px 2px 2px rgba(0,0,0,0.1))")
         .style("cursor", "pointer")
@@ -397,15 +425,31 @@ function updateVisualization(filteredData) {
                 }
             });
         })
-        .on("mouseout", function() {
+        .on("mouseout", function(event, dOut) {
             d3.select(this)
                 .attr("stroke", d => {
-                    const columnNodes = selectedNodes.get(d.column);
-                    return columnNodes && columnNodes.has(d.name) ? "#000" : "#fff";
+                    const columnNodes = selectedNodes.get(dOut.column);
+                    if (!columnNodes || columnNodes.size === 0) {
+                        return "#fff";
+                    } else {
+                        if (columnNodes.has(dOut.name)) {
+                            return "#000";
+                        } else {
+                            return "#fff";
+                        }
+                    }
                 })
                 .attr("stroke-width", d => {
-                    const columnNodes = selectedNodes.get(d.column);
-                    return columnNodes && columnNodes.has(d.name) ? 2 : 1;
+                    const columnNodes = selectedNodes.get(dOut.column);
+                    if (!columnNodes || columnNodes.size === 0) {
+                        return 1;
+                    } else {
+                        if (columnNodes.has(dOut.name)) {
+                            return 2;
+                        } else {
+                            return 1;
+                        }
+                    }
                 })
                 .style("filter", "drop-shadow(2px 2px 2px rgba(0,0,0,0.1))");
         })
@@ -458,24 +502,27 @@ function updateVisualization(filteredData) {
             };
 
             // Get base filtered data
-            let filteredData = filterData(globalData);
+            let updatedData = filterData(globalData);
             
             // If there are selected nodes, filter the data
             if (selectedNodes.size > 0) {
-                filteredData = filteredData.filter(row => {
-                    // Check each column that has selections
-                    return Array.from(selectedNodes.entries()).every(([column, nodes]) => {
-                        const columnName = columns[column - 1];
+                updatedData = updatedData.filter(row => {
+                    // For each column that has selections, the row must match
+                    // one of the selected nodes for that column.
+                    return Array.from(selectedNodes.entries()).every(([col, nodes]) => {
+                        const columnName = columns[col - 1];
                         const csvColumn = columnMapping[columnName];
-                        const value = normalizeValue(row[csvColumn], csvColumn === "Project quality" ? "project_quality" : undefined);
-                        // Row must match any selected node in this column
+                        const value = normalizeValue(
+                            row[csvColumn],
+                            csvColumn === "Project quality" ? "project_quality" : undefined
+                        );
                         return nodes.has(value);
                     });
                 });
             }
             
             // Update visualization with filtered data
-            updateVisualization(filteredData);
+            updateVisualization(updatedData);
         });
 
     // Add node labels
